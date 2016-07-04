@@ -1,0 +1,129 @@
+/* 
+Theme Name: Woodley
+Description: Woodley is a lightweight, multi-purpose theme with a minimalistic design. The responsive two column layout is free from clutter allowing readers to focus on content.
+Author: Michael Burrows  
+Author URI: http://www.wpmultiverse.com/
+Theme URI: http://www.wpmultiverse.com/themes/woodley/
+Tags: black, blue, gray, white, light, two-columns, left-sidebar, responsive-layout, custom-menu, editor-style, featured-images, sticky-post, threaded-comments
+Version: 10.1
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html 
+Woodley WordPress Theme, Copyright 2014 wpmultiverse.com
+Woodley WordPress Theme is distributed under the terms of the GNU GPL
+Text Domain: woodley
+*/
+
+body {font-family:'Karma',serif; font-weight:300; font-size:16px; color:#999;}
+img {max-width:100%; height:auto; display:block;}
+a {color:#999;}
+a:hover {color:#67a3c1;}
+h1, h2, h3, h4, h5, h6 {color:#333;}
+
+/* ----- left sidebar ----- */
+#sidebar {padding:45px;}
+#sidebar #site-name {color:#333; font-weight:bold; font-size:22px; margin-bottom:45px; display:block;}
+#sidebar nav ul {padding:0; margin-bottom:45px; list-style:none;}
+#sidebar nav li {border-bottom:1px solid #f5f5f5;}
+#sidebar nav li a {font-size:18px; padding:9px 0 8px 0; display:block;}
+#sidebar #mobile-menu {position:relative; padding-left:1.25em; cursor:pointer; display:none;}
+#sidebar #mobile-menu:before {content:""; position:absolute; left:0; top:0.25em; width:1em; height:0.15em; background:black; box-shadow:0 0.25em 0 0 black, 0 0.5em 0 0 black;}
+
+/* ----- footer ----- */
+footer {padding-bottom:45px;}
+footer #description {margin-top:0; font-size:14px;}
+
+/* ----- widgets ----- */
+.widget {margin-bottom:45px; word-wrap:break-word;}
+.widget h4 {color:#333; font-size:15px;}
+.widget ul {padding:0 0 0 16px;}
+.widget select {max-width:100%;}
+.widget_search label {display:none;}
+.widget_tag_cloud a {background-color:#aaa; color:#eee; display:inline-block; padding:3px 8px 2px 8px; margin:0 4px 10px 0; font-size:14px!important;}
+.widget_tag_cloud a:hover {background-color:#333; color:#fff;}
+.widget_calendar table {width:100%;}
+.widget_calendar table caption {color:#333; margin-bottom:10px;}
+.widget_calendar table td {text-align:center;}
+
+/* ----- posts & pages ----- */
+#content-holder {border-left:3px solid #f5f5f5; padding-top:30px;}
+.article-holder {border-bottom:3px solid #f5f5f5; margin-bottom:45px; padding-bottom:15px;}
+.article-content {max-width:650px;}
+.post .featured {display:none;}
+.sticky .featured {background-color:#333; color:#fff; display:inline-block; font-size:14px; font-weight:bold; line-height:14px; padding:4px 8px 5px 8px; margin-bottom:-20px;}
+.sticky .featured span {font-size:18px; position:relative; top:1px; margin-right:4px; font-family:arial,sans-serif; font-weight:normal;}
+.wp-post-image {margin-bottom:20px;}
+.post-title {line-height:1.0em; margin-bottom:28px; font-size:32px; word-wrap: break-word;}
+.post-title-teaser a {font-size:28px; color:#333;}
+.post-title-teaser a:hover {color:#67a3c1;}
+p.date-author {font-size:16px; font-weight:bold; color:#333; margin:-25px 0 45px 0;}
+article {margin-bottom:30px; font-size:20px;}
+article a {color:#333;}
+article dt {font-weight:bold; color:#333;}
+article dd {margin-left:0; margin-bottom:20px;}
+article ul, article ol {padding-left:0; margin-left:20px;}
+article ul ul, article ol ol {margin-left:30px;}
+article .alignleft {float:left; margin:0 30px 15px 0;}
+article .alignright {float:right; margin:0 0 15px 30px;}
+article .aligncenter {margin:0 auto 15px auto;}
+article .wp-caption, article .gallery-caption {max-width:100%;}
+article .wp-caption-text {font-size:16px; margin-top:4px;}
+blockquote {background-color:#aaa; color:#eee; margin:0; padding:30px;}
+table {width:100%;}
+table td, table th {border:2px solid #f5f5f5; padding:5px 10px;}
+.post-categories {float:left; width:100%;}
+.post-categories li {float:left; margin-right:35px;}
+.post-categories li a {color:#333; font-weight:bold; font-size:16px;}
+#post-nav {max-width:650px; padding-bottom:40px;}
+#post-nav a {color:#333;}
+#post-nav a:hover {color:#67a3c1;}
+#post-nav #post-nav-prev {float:left; width:45%;}
+#post-nav #post-nav-next {float:right; width:45%; text-align:right;}
+
+/* ----- comments ----- */
+#comments {border-bottom:3px solid #f5f5f5; padding-bottom:35px; margin-bottom:40px;}
+#comments .comments-title {color:#333; font-size:18px;}
+#comments .comment-list {padding-left:0; margin-bottom:45px;}
+#comments .comment-list li {list-style:none; margin-bottom:22px; max-width:650px;}
+#comments .comment-list li .avatar {float:left; margin:0 10px 10px 0;}
+#comments .comment-list li .comment-author, #comments .comment-list li .comment-date {color:#333;}
+#comments .comment-list li.bypostauthor .comment-author, #comments .comment-list li.bypostauthor .comment-date {font-weight:bold;}
+#comments .comment-list li .comment-reply-link {font-size:12px; text-transform:uppercase;}
+#comments .comment li {list-style:disc;}
+#comments .comment-reply-title {color:#333;}
+#comments .comment-form label {width:100%; color:#333; font-size:15px;}
+#comments .comment-form input[type=text] {width:35%;}
+#comments #form-allowed-tags {display:none;}
+
+/* ----- tags ----- */
+.tags {padding:0; margin-bottom:35px; float:left;}
+.tags li {float:left; list-style:none; margin:0 10px 10px 0;}
+.tags li a {color:#fff; font-weight:bold; padding:10px 12px 5px 12px; font-size:13px; line-height:13px; display:block; background-color:#67a3c1; border-radius:3px; box-shadow:inset 0px -1px 2px #2389b0; text-shadow:0px -1px 0px #2389b0;}
+.tags li a:hover {background-color:#2389b0;}
+
+/* ----- pager ----- */
+.pager {margin-bottom:45px; text-transform:uppercase;}
+.pager .page-numbers {border:2px solid #f0f0f0; padding:2px 11px; -webkit-border-radius:30px; -moz-border-radius:30px; border-radius:30px;}
+.pager .page-numbers span {font-size:19px; margin-right:3px; font-weight:bold; color:#ccc;}
+.pager .current {background-color:#f0f0f0;}
+.pager .next, .pager .prev {border:none; font-size:14px;}
+
+/* ----- form elements ----- */
+input[type=submit] {background-color:#f0f0f0; border:none; color:#aaa; font-weight:bold; padding:8px 12px 6px 12px; font-size:15px; border-radius:3px; box-shadow:inset 0px -1px 2px #ddd;}
+input[type=text], input[type=email], input[type=password], textarea {border:2px solid #f0f0f0; padding:5px;}
+.screen-reader-text {display:none;}
+
+/* ----- media queries ----- */
+@media (max-width:991px) {
+	#sidebar {padding:45px 0 0 17px; margin-left:8.3333%; position:relative; z-index:9999;}
+	#sidebar #site-name {margin-bottom:0;}
+	#sidebar #mobile-menu {display:block;}
+	#sidebar nav {display:none; float:left; width:100%;}
+	#widgets {padding:0 8.3333%;}
+	.article-content {max-width:84%;}
+	#comments .comment-list li {max-width:100%;}
+}
+@media (max-width:767px) {
+	#sidebar {margin-left:0;}
+	#widgets {padding:0;}
+	.article-content {max-width:100%}
+}
