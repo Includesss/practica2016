@@ -1,61 +1,25 @@
-/* Mask: */
-background: #EAEAEA;
-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50), 0px 2px 4px 0px rgba(0,0,0,0.50);
-/* MIREA_Logo.svg: */
-/* Система тестирования: */
-font-family: Helvetica;
-font-size: 72px;
-color: #038FCA;
-/* VisualButton: */
-background: #D8D8D8;
-border: 1px solid #979797;
-/* Line: */
-border: 1px solid #979797;
-/* Line: */
-border: 1px solid #979797;
-/* images: */
-background: rgba(205,127,0,0.89);
-/* Регистрация: */
-font-family: Helvetica;
-font-size: 72px;
-color: #FFFFFF;
-/* VisualButton: */
-background: #D8D8D8;
-border: 1px solid #979797;
-/* Line: */
-border: 1px solid #979797;
-/* 31-01-2016-2: */
-background: rgba(3,140,1,0.93);
-border: 1px solid #979797;
-/* Результаты: */
-font-family: Helvetica;
-font-size: 72px;
-color: #FBFBFB;
-/* Line: */
-border: 1px solid #979797;
-/* Line: */
-border: 1px solid #979797;
-/* Mask: */
-background: #D8D8D8;
-/* online-tests: */
-background: rgba(0,111,199,0.91);
-/* Тесты: */
-font-family: Helvetica;
-font-size: 65.45px;
-color: #FFFFFF;
-/* Line: */
-border: 1px solid #979797;
-/* Line: */
-border: 1px solid #979797;
-/* Line: */
-border: 1px solid #979797;
-/* Mask: */
-background: #D8D8D8;
-/* shields-security-bags-login: */
-background: rgba(148,0,0,0.82);
-/* Login: */
-font-family: Helvetica;
-font-size: 72px;
-color: #FFFFFF;
-/* Line: */
-border: 3px solid #979797;
+<!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+        <h1>Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+       </div>
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+      </div>
