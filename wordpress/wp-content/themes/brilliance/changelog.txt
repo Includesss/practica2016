@@ -1,7 +1,0 @@
-Version 1.0.6
-Feature - Added support for clients
-Feature - Added a template to display all services
-Feature - Added multilingual support
-
-Version 1.0.5
-Theme release!
